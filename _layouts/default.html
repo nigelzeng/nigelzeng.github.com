@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
-    * Author:         BeiYuu
-    -->
     <meta charset="utf-8" />
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="generator" content="Jekyll" />
@@ -13,23 +10,19 @@
     <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37821190-1']);
+      _gaq.push(['_setDomainName', 'nigelzeng.com']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
 </head>
 <body>
     {{ content }}
-    
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37821190-1']);
-  _gaq.push(['_setDomainName', 'nigelzeng.com']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </body>
 </html>
