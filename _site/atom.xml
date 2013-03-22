@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>nigelzeng</title>
+ <link href="http://nigelzeng.github.com/" rel="self"/>
+ <link href="http://nigelzeng.github.com"/>
+ <updated>2013-03-23T02:15:03+08:00</updated>
+ <id>http://nigelzeng.github.com</id>
+ <author>
+   <name>nigelzeng</name>
+   <email>this.nigel@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://nigelzeng.github.com/2013/03/hello-world"/>
+   <updated>2013-03-22T00:00:00+08:00</updated>
+   <id>http://nigelzeng.github.com/2013/03/hello-world</id>
+   <content type="html">&lt;p&gt;前前后后拖了这么久，终于发出了这篇：&lt;/p&gt;
+
+&lt;h2&gt;Hello World!&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
