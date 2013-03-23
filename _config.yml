@@ -10,8 +10,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : nigelzeng
-tagline: Site Tagline
+# home page title
+title : nigelzeng  
+
+# webpage title
+sitetitle: nigelzeng's thoughts 
+description: focus on NGINX, WEB, LINUX.
+keywords: Linux, Python, DevOps
+tagline: asdfsdafd Site Tagline
 author :
   name : nigelzeng
   email : this.nigel@gmail.com
