@@ -10,7 +10,8 @@ layout: home
 	  <div style="border-bottom: 1px solid #ccc;text-align:center;padding:0 0 14px 0;color:#999;">{{ post.date | date:"%Y-%m-%d" }} {{ post.posttime }} by nigelzeng</div>
 	  <div class="summary" style="margin:18px 0 0 0;">
 	    <!--<span class="alignleft">{{ post.description }}</span>-->
-                <span class="alignleft">{{ post.content }}</span>
+                <span class="alignleft">{{ post.content | truncatewords: 35 }}</span>
+		<a class="" href="{{ post.url }}">Read More...</a></span>
           </div>
         </div>
             {% endfor %}
