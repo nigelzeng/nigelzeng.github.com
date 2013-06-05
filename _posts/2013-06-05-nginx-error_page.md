@@ -25,9 +25,9 @@ error_page指令可以配置在http、server、location、location的if语句中
      error_page   403          http://example.com/forbidden.html;
      error_page   404          = @fetch;
 
-第一行和第二行把访问静态文件产生的404响应重定向到http://server_name/404.html页面。
-第三行则直接重定向到指定的http://example.com/forbidden.html（可以是外站）
-第四行则是指定到一个location，这个location一定要在配置文件中配置。类似于：
+*   第一行和第二行把访问静态文件产生的404响应重定向到http://server_name/404.html页面。
+*   第三行则直接重定向到指定的http://example.com/forbidden.html（可以是外站）
+*   第四行则是指定到一个location，这个location一定要在配置文件中配置。类似于：
      location @fetch {
           proxy_pass http://server;
      }
