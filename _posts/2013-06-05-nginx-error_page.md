@@ -38,6 +38,7 @@ error_page指令可以配置在http、server、location、location的if语句中
 
 ###如何配置
 这段配置其实很简单，我自己走了很多弯路，没有想到点上：
+
 *   首先确保打开`proxy_intercept_errors  on;`
 *   配置error_page：`error_page 404 /error1.html;`
 *   配置location：
