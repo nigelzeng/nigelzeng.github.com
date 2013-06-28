@@ -5,7 +5,7 @@ category:   未分类
 description: 软件下载备份。
 ---
 
-[MySQL][]
+* [MySQL][]
 
 **---EOF---**
 
